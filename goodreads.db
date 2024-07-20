@@ -1,0 +1,16 @@
+SQLite format 3
+username TEXT,
+  name TEXT,
+  password TEXT,
+  gender TEXT,
+  location TEXT
+)P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�v�OtablebookbookCREATE TABLE book (
+  book_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  title TEXT,
+  author_id INT,
+  rating INT,
+  rating_count INT,
+  review_count INT,
+  description TEXT,
+  pages INT,
+  date_of_publication TEXT,
